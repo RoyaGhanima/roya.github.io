@@ -102,9 +102,11 @@ ul{
 }
 .li{
     color: black;
-    margin-top: 15rem;
+    margin-top: 10rem;
     font-size: 2rem;
     padding-left: 40rem;
+    display: block;
+    line-height: 5rem;
    
 }
 a{
