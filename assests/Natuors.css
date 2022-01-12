@@ -31,15 +31,15 @@ body{
 .contain{
         background:#F8F8FF;
         width: 95%;
-        background-position: center;
-        justify-content: center;
         position: relative;
         overflow: hidden;
+        margin-top: 1rem;
     }
     @media (max-width: 1199.98px) { 
         .contain{
             width: 100%;
             padding: 0;
+            margin: 0;
         }
 
     }
@@ -72,8 +72,8 @@ body{
    width: 3rem;
    right: 5rem;
    top: 2rem;
-   padding-left: .6rem;
-   padding-top: .3rem;
+   padding-left: .7rem;
+   padding-top: .4rem;
 }
 @media (max-width: 1199.98px) { 
    .bi{
@@ -382,7 +382,6 @@ header a:visited{
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
-    margin-bottom: 2rem;
    
 }
 @media (max-width: 1199.98px) { 
@@ -626,12 +625,13 @@ header a:visited{
  }
 @media only screen and (max-width:991.98px){
     .review{
-        font-size: .7rem;
+        font-size: 1rem;
         margin-left: 2rem;
         margin-top: 1.5rem;
     }
     .card-head{
         margin-left: 2rem;
+        font-size: 2rem;
     }
     .img{
        height: 50px;
