@@ -107,8 +107,52 @@ ul{
     padding-left: 40rem;
     display: block;
     line-height: 5rem;
+    justify-content: center;
+    align-items: center;
    
 }
+@media (max-width: 1399.98px) { 
+    .li{
+        padding-left: 30rem;
+        font-size: 2rem;
+        line-height: 5rem;
+    }
+ }
+@media (max-width: 1199.98px) { 
+    .li{
+        padding-left: 25rem;
+        font-size: 2rem;
+        line-height: 5rem;
+    }
+}
+@media (max-width: 991.98px) {
+     .li{
+    padding-left: 20rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+} }
+@media (max-width: 767.98px) { 
+    .li{
+        padding-left: 15rem;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+ }
+ @media (max-width: 575.98px) { 
+    .li{
+        padding-left: 10rem;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+  }
+@media (max-width:400px) { 
+    .li{
+        padding-left: 5rem;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+  }
+
 a{
     text-decoration: none;
 }
