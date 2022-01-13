@@ -34,6 +34,8 @@ body{
         position: relative;
         overflow: hidden;
         margin-top: 1rem;
+        padding-left: 0;
+        padding-right: 0;
     }
     @media (max-width: 1199.98px) { 
         .contain{
@@ -395,7 +397,7 @@ header a:visited{
 .block{
     background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)),
     url(nat-1-large.jpg);
-    padding:10rem 0;
+    padding:8rem 0;
     position: relative;
     background-size: cover;
     top: 10rem;
@@ -410,7 +412,7 @@ header a:visited{
 .cd-body{
     background: rgba(255,255,255,.7);
     transform:skewy(5deg);
-    
+    bottom: 2rem;
 }
 .m{
     color:#777;
@@ -597,13 +599,14 @@ header a:visited{
 .card2{
     margin-top: 3rem;
 }
-@media (max-width: 1199.98px) { 
+@media (max-width: 1399.98px) { 
     .review{
         margin-left: 2rem;
         margin-top: 1.5rem;
     }
     .card-head{
         margin-left: 2rem;
+        font-size:1rem;
     }
     .img{
        height: 70px;
@@ -611,8 +614,24 @@ header a:visited{
        margin-left: 1rem;
        
     }
+    .card2{
+        margin-left: -.2rem;
+    }
+    
+ }
+@media (max-width: 1199.98px) { 
+    .review{
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+    }
     .card-head{
-        font-size:.7rem;
+        margin-left: 2rem;
+        font-size:1rem;
+    }
+    .img{
+       height: 70px;
+       width: 70px;
+       margin-left: 1rem;
        
     }
     .card2{
@@ -631,16 +650,12 @@ header a:visited{
     }
     .card-head{
         margin-left: 2rem;
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .img{
        height: 50px;
        width: 50px;
        margin-left: 1rem;
-       
-    }
-    .card-head{
-        font-size:.7rem;
        
     }
     .card2{
